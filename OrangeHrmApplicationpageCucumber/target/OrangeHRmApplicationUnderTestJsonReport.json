@@ -1,0 +1,676 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User should open Browser in the System",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Validating OrangHRM Application LogIn Page",
+        "description": "",
+        "id": "orangehrm-application-functionalities-testing;validating-oranghrm-application-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User enters OrangeHRM Application URL Address",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_enters_orange_hrm_application_url_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "User should be navigated to OrangeHRM Application LogIn WebPage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_orange_hrm_application_log_in_web_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User should open Browser in the System",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 12,
+            "value": "#Then User should close the OrangeHRM Application along with the browser"
+          }
+        ],
+        "line": 16,
+        "name": "Validating OrangHRM Application LogIn Functioanlity",
+        "description": "",
+        "id": "orangehrm-application-functionalities-testing;validating-oranghrm-application-login-functioanlity",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 18,
+                "value": "#Given User should open Browser in the System"
+              }
+            ],
+            "line": 19,
+            "name": "User enters OrangeHRM Application URL Address",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_enters_orange_hrm_application_url_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User should be navigated to OrangeHRM Application LogIn WebPage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_orange_hrm_application_log_in_web_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User should enter userName and password and click on login button",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_enter_userName_and_password_and_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "User should be navigated to OrangeHRM Application HomePage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_OrangeHRM_Application_HomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User should click on WelCome Admin and click on Logout",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_click_on_WelCome_Admin_and_click_on_Logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "User should be navigated to OrangeHRM Application LogIn WebPage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_orange_hrm_application_log_in_web_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@ReTesting"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User should open Browser in the System",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Validating OrangHRM Application LogIn Functioanlity with TestData",
+        "description": "",
+        "id": "orangehrm-application-functionalities-testing;validating-oranghrm-application-login-functioanlity-with-testdata;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 30,
+                "value": "#Given User should open Browser in the System"
+              }
+            ],
+            "line": 31,
+            "name": "User enters OrangeHRM Application URL Address",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_enters_orange_hrm_application_url_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User should be navigated to OrangeHRM Application LogIn WebPage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_orange_hrm_application_log_in_web_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User should enter \"BAjay\" and \"Ajay@9265\" and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BAjay",
+                  "offset": 19
+                },
+                {
+                  "val": "Ajay@9265",
+                  "offset": 31
+                }
+              ],
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_enter_and_and_click_on_login_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User should be navigated to OrangeHRM Application HomePage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_OrangeHRM_Application_HomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User should click on WelCome Admin and click on Logout",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_click_on_WelCome_Admin_and_click_on_Logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User should be navigated to OrangeHRM Application LogIn WebPage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_orange_hrm_application_log_in_web_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@Smoke"
+          },
+          {
+            "line": 27,
+            "name": "@RegressionTesting"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User should open Browser in the System",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "Validating OrangHRM Application LogIn Functioanlity with TestData",
+        "description": "",
+        "id": "orangehrm-application-functionalities-testing;validating-oranghrm-application-login-functioanlity-with-testdata;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 30,
+                "value": "#Given User should open Browser in the System"
+              }
+            ],
+            "line": 31,
+            "name": "User enters OrangeHRM Application URL Address",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_enters_orange_hrm_application_url_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User should be navigated to OrangeHRM Application LogIn WebPage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_orange_hrm_application_log_in_web_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User should enter \"srini\" and \"WebDriver\" and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "srini",
+                  "offset": 19
+                },
+                {
+                  "val": "WebDriver",
+                  "offset": 31
+                }
+              ],
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_enter_and_and_click_on_login_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User should be navigated to OrangeHRM Application HomePage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_OrangeHRM_Application_HomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User should click on WelCome Admin and click on Logout",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_click_on_WelCome_Admin_and_click_on_Logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User should be navigated to OrangeHRM Application LogIn WebPage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_orange_hrm_application_log_in_web_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@Smoke"
+          },
+          {
+            "line": 27,
+            "name": "@RegressionTesting"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User should open Browser in the System",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "Validating OrangHRM Application LogIn Functioanlity with TestData",
+        "description": "",
+        "id": "orangehrm-application-functionalities-testing;validating-oranghrm-application-login-functioanlity-with-testdata;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 30,
+                "value": "#Given User should open Browser in the System"
+              }
+            ],
+            "line": 31,
+            "name": "User enters OrangeHRM Application URL Address",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_enters_orange_hrm_application_url_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User should be navigated to OrangeHRM Application LogIn WebPage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_orange_hrm_application_log_in_web_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User should enter \"Cucumber\" and \"Q@Trainer7\" and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 19
+                },
+                {
+                  "val": "Q@Trainer7",
+                  "offset": 34
+                }
+              ],
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_enter_and_and_click_on_login_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User should be navigated to OrangeHRM Application HomePage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_OrangeHRM_Application_HomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User should click on WelCome Admin and click on Logout",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_click_on_WelCome_Admin_and_click_on_Logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User should be navigated to OrangeHRM Application LogIn WebPage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_orange_hrm_application_log_in_web_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@Smoke"
+          },
+          {
+            "line": 27,
+            "name": "@RegressionTesting"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User should open Browser in the System",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 43,
+        "name": "Validating OrangHRM Application LogIn Functioanlity with TestData",
+        "description": "",
+        "id": "orangehrm-application-functionalities-testing;validating-oranghrm-application-login-functioanlity-with-testdata;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "comments": [
+              {
+                "line": 30,
+                "value": "#Given User should open Browser in the System"
+              }
+            ],
+            "line": 31,
+            "name": "User enters OrangeHRM Application URL Address",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_enters_orange_hrm_application_url_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User should be navigated to OrangeHRM Application LogIn WebPage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_orange_hrm_application_log_in_web_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User should enter \"Ajay\" and \"Ajay@9265\" and click on login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ajay",
+                  "offset": 19
+                },
+                {
+                  "val": "Ajay@9265",
+                  "offset": 30
+                }
+              ],
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_enter_and_and_click_on_login_button(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "User should be navigated to OrangeHRM Application HomePage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_OrangeHRM_Application_HomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User should click on WelCome Admin and click on Logout",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_click_on_WelCome_Admin_and_click_on_Logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User should be navigated to OrangeHRM Application LogIn WebPage",
+            "match": {
+              "location": "OrangeHRMApplicationUserDefinedMethod.user_should_be_navigated_to_orange_hrm_application_log_in_web_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 27,
+            "name": "@Smoke"
+          },
+          {
+            "line": 27,
+            "name": "@RegressionTesting"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM Application Functionalities Testing",
+    "description": "",
+    "id": "orangehrm-application-functionalities-testing",
+    "keyword": "Feature",
+    "uri": "OrangeHRmApplicationUnderTest.feature"
+  }
+]

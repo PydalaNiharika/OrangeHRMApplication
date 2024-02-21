@@ -1,0 +1,10 @@
+<suite name="OrangeHrmApplication" parallel="TestCase">
+
+<test name="LoginTest">
+<classes>
+<class name="com.OrangeHrmApplication.Testinglibary.LoginpageTestText"/>
+</classes>
+</test>
+
+
+</suite>

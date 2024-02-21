@@ -1,0 +1,127 @@
+[main] INFO Log - **** Edge Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log - **** Edge Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log - **** Edge Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  The Expected Text of the WebElement LogIn Pannel is :- LOGIN Panel
+[main] INFO Log -  The Actual Text of the WebElement LogIn Pannel is :- LOGIN Panel
+[main] INFO Log -  LogIn Pannel Text Validation Successful - PASS
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  OrangeHRM Applicaiton LogIn page Logo found - PASS 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  The Expected Text of the WebElement LogIn Pannel is :- LOGIN Panel
+[main] INFO Log -  The Actual Text of the WebElement LogIn Pannel is :- LOGIN Panel
+[main] INFO Log -  LogIn Pannel Text Validation Successful - PASS
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log - pass
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  The Expected Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+[main] INFO Log -  The Actual Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+[main] INFO Log -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  The Expected Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+[main] INFO Log -  The Actual Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+[main] INFO Log -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  The expected title of the OrangeHRm Application HOME Page is :- OrangeHRM
+[main] INFO Log -  The actual title of the OrangeHRm Application HOME Page is :- OrangeHRM
+[main] INFO Log - Successfully Navigated to OrangeHRM Application HOME WebPage - PASS
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  The Expected Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+[main] INFO Log -  The Actual Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+[main] INFO Log -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  The expected title of the OrangeHRm Application HOME Page is :- OrangeHRM
+[main] INFO Log -  The actual title of the OrangeHRm Application HOME Page is :- OrangeHRM
+[main] INFO Log - Successfully Navigated to OrangeHRM Application HOME WebPage - PASS
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  The Expected Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+[main] INFO Log -  The Actual Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+[main] INFO Log -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  The expected title of the OrangeHRm Application HOME Page is :- OrangeHRM
+[main] INFO Log -  The actual title of the OrangeHRm Application HOME Page is :- OrangeHRM
+[main] INFO Log - Successfully Navigated to OrangeHRM Application HOME WebPage - PASS
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  The Expected Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+[main] INFO Log -  The Actual Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+[main] INFO Log -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  The Expected Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+[main] INFO Log -  The Actual Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+[main] INFO Log -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 
+[main] INFO Log -  ************ Chrome Browser along with OrangeHRM Application Closed Successfully ********
+[main] INFO Log - **** Chrome Browser Launched Successfully ********** 
+[main] INFO Log -  Successfully Navigated to OrangeHRM Application LogIn Page 

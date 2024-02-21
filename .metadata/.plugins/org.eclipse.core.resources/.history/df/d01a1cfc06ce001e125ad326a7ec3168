@@ -1,0 +1,120 @@
+package com.OrangeHrmApplication.Testinglibary;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.BaseTest.BaseTest;
+import com.utility.Log;
+
+public class LogInPage extends BaseTest {
+	
+public  LogInPage() {
+	
+	PageFactory.initElements(driver,this);
+	
+	
+	
+	
+	
+}
+String expected_OrangeHRMApplicationLogInPageText;
+
+String actual_OrangeHRMApplicationLogInPageText;
+@FindBy(id="logInPanelHeading")
+WebElement orangeHRMApplicationLogInPage ;
+public void OrangeHrmLoginpagePannel() {
+	expected_OrangeHRMApplicationLogInPageText="LOGIN Panel";
+	Log.info(" The Expected Text of the OrangeHRM Application LogIN Page is :- "+expected_OrangeHRMApplicationLogInPageText);
+
+	// id="logInPanelHeading"
+	
+
+	actual_OrangeHRMApplicationLogInPageText=orangeHRMApplicationLogInPage.getText();
+	Log.info(" The Actual Text of the OrangeHRM Application LogIN Page is :- "+actual_OrangeHRMApplicationLogInPageText);
+
+	if(actual_OrangeHRMApplicationLogInPageText.equals(expected_OrangeHRMApplicationLogInPageText))
+	{
+		Log.info(" Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS ");
+	}
+	else
+	{
+		Log.info(" Expected LogIn Page Text Not Found - Failed to Navigate to OrangeHRM Application LogIn Page - FAIL");
+	}
+
+
+}
+		
+
+Row logInTestDataRow;
+Cell userNameTestDataCell;
+FileInputStream logInTestDataFile;
+XSSFWorkbook workBook;
+XSSFSheet logInTestDataSheet;
+FileInputStream propertiesFile;
+Properties properties;
+
+@FindBy(id="txtUsername")
+WebElement userName;
+
+
+// name="txtPassword"
+@FindBy(name="txtPassword")
+WebElement password;
+
+// class="button"
+@FindBy(className="button")
+WebElement logInButton;
+public void LogInTest() throws IOException
+{
+
+logInTestDataFile= new FileInputStream("./src/test/java/testDataFiles/logindata.xlsx");
+workBook= new XSSFWorkbook(logInTestDataFile);
+logInTestDataSheet= workBook.getSheet("TestData");
+
+logInTestDataRow=logInTestDataSheet.getRow(1);
+userNameTestDataCell=logInTestDataRow.getCell(0);
+
+ String username=userNameTestDataCell.getStringCellValue();
+
+// Identifying the Properties file - since the properties of the WebElement are stored in it
+userName.sendKeys(username);
+
+
+
+
+ // Performing an operation on the identified WebElement
+
+
+Cell passwordTestDataCell=logInTestDataRow.getCell(1);
+ String Password=passwordTestDataCell.getStringCellValue();
+password.sendKeys(Password);
+logInButton.click();
+
+
+// String passwordTestData="Q@Trainer7";
+
+
+
+// <input type="submit" name="Submit" class="button" id="btnLogin" value="LOGIN">
+
+
+
+}
+		
+		
+		
+	}
+	
+
+

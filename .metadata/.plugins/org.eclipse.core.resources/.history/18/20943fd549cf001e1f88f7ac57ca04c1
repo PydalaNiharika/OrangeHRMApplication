@@ -1,0 +1,14 @@
+Feature: OrangeHRM Application Functionalities Testing
+
+
+      
+Scenario: Validating OrangHRM Application LogIn Functioanlity
+
+Given user open Browser in the System
+When OrangeHrm naviagate Current Web page
+Then OrangeHrm Loginpage currentUrl
+Then used OrangeHrm Loginpage Loginpannel
+Then used OrangeHRm Login TestData
+Then used OrangeHRm Webpage validtion
+Then used OrangeHRm Loginpage Loginpannel
+Then used OrangeHRm Loginpage Close

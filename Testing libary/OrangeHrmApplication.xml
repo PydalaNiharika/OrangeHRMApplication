@@ -1,0 +1,15 @@
+<suite name="OrangeHrmApplication" parallel="TestCase">
+
+<test name="LoginTest">
+<classes>
+<class name="com.OrangeHrmApplication.OrangeHRMLoginFunctionality"/>
+</classes>
+</test>
+<test name="AddEmpolyee">
+<classes>
+<class name="com.OrangeHrmApplication.OrangeHrmEmpolyleListadded"/>
+</classes>
+</test>
+
+
+</suite>

@@ -1,0 +1,11 @@
+2024-02-16 19:14:36,975 - Log -INFO - **** Edge Browser Launched Successfully ********** 
+2024-02-16 19:14:37,744 - Log -INFO -  Successfully Navigated to OrangeHRM Application LogIn Page 
+2024-02-16 19:14:37,955 - Log -INFO -  The actual title of the OrangeHRm Application LogIn Page is :- OrangeHRM
+2024-02-16 19:14:37,966 - Log -INFO - Successfully Navigated to OrangeHRM Application LogIn WebPage - PASS
+2024-02-16 19:14:37,972 - Log -INFO -  The Expected Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+2024-02-16 19:14:38,040 - Log -INFO -  The Actual Text of the OrangeHRM Application LogIN Page is :- LOGIN Panel
+2024-02-16 19:14:38,049 - Log -INFO -  Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS 
+2024-02-16 19:14:38,072 - Log -INFO -  The expected title of the OrangeHRm Application HOME Page is :- OrangeHRM
+2024-02-16 19:14:38,091 - Log -INFO -  The actual title of the OrangeHRm Application HOME Page is :- OrangeHRM
+2024-02-16 19:14:38,096 - Log -INFO - Successfully Navigated to OrangeHRM Application HOME WebPage - PASS
+2024-02-16 19:14:38,954 - Log -INFO -  ************ Edge Browser along with OrangeHRM Application Closed Successfully ********

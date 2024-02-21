@@ -1,0 +1,136 @@
+package com.OrangeHrmAPPlicationTestCase;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+
+import com.utility.Log;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class OrangeHRMApplicationUserDefinedMethod {
+	WebDriver driver;
+	String applicationurl="http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+			@Given("user open Browser in the System")
+	public void user_open_browser_in_the_system() {
+	    System.setProperty("webdriver.edge.driver","./WebDriver/msedgedriver.exe");
+	    driver=new EdgeDriver();
+	}
+
+	@When("OrangeHrm naviagate Current Web page")
+	public void orange_hrm_naviagate_current_web_page() {
+	    driver.get(applicationurl);
+	    
+	    
+	    driver.manage().window().maximize();
+	    
+	}
+
+	@Then("OrangeHrm Loginpage currentUrl")
+	public void orange_hrm_loginpage_current_url() {
+	   
+		
+		String excepted_orangeHrmApplicationUrl="\"http://127.0.0.1/orangehrm-4.2.0.1/symfony/web/index.php/auth/login";
+		Log.info("The orangeHrm application ExceptedLoginpage"+excepted_orangeHrmApplicationUrl);
+		
+		
+		String actual_orangeHrmApplicationUrl=driver.getCurrentUrl();		
+		
+		Log.info("The orangeHrm application actauallogin page"+actual_orangeHrmApplicationUrl);
+		
+		
+		if(actual_orangeHrmApplicationUrl.equals(excepted_orangeHrmApplicationUrl))
+				{
+			Log.info("The Current Login Homepage is Suceefully");
+				}
+		else {
+			Log.info("THe cureent Login Homepage is failure ");
+		}
+		
+	}
+
+	@Then("used OrangeHrm Loginpage Loginpannel")
+	public void used_orange_hrm_loginpage_loginpannel() {
+		String expected_OrangeHRMApplicationLogInPageText="LOGIN Panel";
+		Log.info(" The Expected Text of the OrangeHRM Application LogIN Page is :- "+expected_OrangeHRMApplicationLogInPageText);
+
+		// id="logInPanelHeading"
+		By orangeHRMApplicationLogInPageTextProperty=By.id("logInPanelHeading");
+		WebElement orangeHRMApplicationLogInPage=driver.findElement(orangeHRMApplicationLogInPageTextProperty);
+
+		String actual_OrangeHRMApplicationLogInPageText=orangeHRMApplicationLogInPage.getText();
+		Log.info(" The Actual Text of the OrangeHRM Application LogIN Page is :- "+actual_OrangeHRMApplicationLogInPageText);
+
+		if(actual_OrangeHRMApplicationLogInPageText.equals(expected_OrangeHRMApplicationLogInPageText))
+		{
+		Log.info(" Text Found - Successfully Navigated to OrangeHRM Application LogIn Page - PASS ");
+		}
+		else
+		{
+		Log.info(" Expected LogIn Page Text Not Found - Failed to Navigate to OrangeHRM Application LogIn Page - FAIL");
+	}
+	}
+
+	@Then("used OrangeHRm Login TestData")
+	public void used_orange_h_rm_login_test_data() {
+		String userNameTestData="srini"; // Test Data
+		By userNamePoperty=By.id("txtUsername"); // Property of an element is identified and assigned to a variable
+		WebElement userName=driver.findElement(userNamePoperty); // finding a WebElement with the property in the current Webpage
+		userName.sendKeys(userNameTestData); // Performing an operation on the identified WebElement
+
+		String passwordTestData="Q@Trainer7";
+		By passwordProperty=By.name("txtPassword");
+		WebElement password=driver.findElement(passwordProperty);
+		password.sendKeys(passwordTestData);
+
+		By logInButtonProperty=By.className("button");
+		WebElement logInButton=driver.findElement(logInButtonProperty);
+		logInButton.click();
+	}
+
+	@Then("used OrangeHRm Webpage validtion")
+	public void used_orange_h_rm_webpage_validtion() {
+
+
+String userNameTestData="srini"; // Test Data
+By userNamePoperty=By.id("txtUsername"); // Property of an element is identified and assigned to a variable
+WebElement userName=driver.findElement(userNamePoperty); // finding a WebElement with the property in the current Webpage
+userName.sendKeys(userNameTestData); // Performing an operation on the identified WebElement
+
+String passwordTestData="Q@Trainer7";
+By passwordProperty=By.name("txtPassword");
+WebElement password=driver.findElement(passwordProperty);
+password.sendKeys(passwordTestData);
+
+By logInButtonProperty=By.className("button");
+WebElement logInButton=driver.findElement(logInButtonProperty);
+logInButton.click();
+	}
+
+	@Then("used OrangeHRm Loginpage Loginpannel")
+	public void used_orange_h_rm_loginpage_Logout() throws InterruptedException {
+		By welComeAdminProperty=By.partialLinkText("Admin");
+
+		WebElement welComeAdmin=driver.findElement(welComeAdminProperty);
+		welComeAdmin.click();
+
+		Thread.sleep(5000);
+
+
+		By logOutProperty=By.linkText("Logout");
+		WebElement logOut=driver.findElement(logOutProperty);
+		logOut.click();
+	}
+
+	@Then("used OrangeHRm Loginpage Close")
+	public void used_orange_h_rm_loginpage_close() {
+	    driver.quit();
+	}
+
+	
+
+
+}
